@@ -1,0 +1,57 @@
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.profile img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 100px;
+  margin-right: 20px;
+}
+
+.profile .info h2 {
+  margin-bottom: 5px;
+}
+
+.skills ul {
+  padding-left: 20px;
+}
+
+.skills li {
+  margin-bottom: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  color: #aaa;
+  font-size: 14px;
+}
+
